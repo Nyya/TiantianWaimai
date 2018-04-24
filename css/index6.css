@@ -1,0 +1,201 @@
+header{
+    width: 100%;
+    height: 3.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .head{
+    width: 2rem;
+    height: 2rem;
+    background-image: url("../img/index5/header/hd.png");
+    background-size: 100% 100%;
+}
+
+.title{
+    width: 100%;
+    height: 1.18rem;
+    padding: .11rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h3{
+    color: #d3d3d3;
+    font-size: .24rem;
+    text-align: center;
+    line-height: .24rem;
+}
+
+.title div img{
+    display: block;
+    width: 2.72rem;
+    height: .16rem;
+}
+
+.title div h2{
+    color: #d86161;
+    font-size: .24rem;
+    text-align: center;
+    line-height: .24rem;
+    margin-top: -.2rem;
+}
+
+section{
+    width: 100%;
+    height: 6rem;
+    padding-top: .78rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+section .box{
+    width: 5.65rem;
+    height: 3.90rem;
+    background-image: url("../img/index6/section/bg.png");
+    background-size: 100% 100%;
+    padding: .75rem .5rem .75rem .3rem;
+    box-sizing: border-box;
+}
+
+section .box ul{
+    width: 100%;
+    height: 100%;
+}
+
+section .box ul li{
+    width: 100%;
+    height: 33.3%;
+    padding-right: .2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .box ul li .icon{
+    width: .18rem;
+    height: .18rem;
+    background-image: url("../img/index5/section/yuan.png");
+    margin: .2rem auto 0;
+    background-repeat: no-repeat;
+}
+
+section .box ul li .list{
+    width: 4.52rem;
+    height: 100%;
+    border-bottom: .04rem solid #dcd9d6;
+    border-bottom-left-radius: .02rem;
+    border-bottom-right-radius: .02rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .box ul li .list .phoneNum , .password , .yanZheng{
+    width: 2.8rem;
+    height: .72rem;
+    line-height: .72rem;
+    border-style: none;
+    background-color: #f4f4f4;
+    color: #949494;
+    font-size: .22rem;
+    padding-left: .2rem;
+    padding-top: .2rem;
+    box-sizing: border-box;
+    outline-style: none;
+}
+
+section .box ul li:nth-child(2) .list .pic{
+    width: 1.5rem;
+    height: .34rem;
+    border-radius: .12rem;
+    background-color: #eb9cdf;
+    box-shadow: .04rem .03rem .10rem rgba(0,0,0,.3);
+    margin: 0 auto;
+    color: #fff;
+    font-size: .22rem;
+    text-align: center;
+    line-height: .34rem;
+}
+
+::-webkit-input-placeholder{
+    color: #949494;
+    font-size: .22rem;
+}
+
+section .box ul li .list .iconPhone{
+    width: .3rem;
+    height: .4rem;
+    background-image: url("../img/index5/section/phone.png");
+    background-size: 100% 100%;
+    margin-top: 0.23rem;
+}
+
+section .box ul li .list .iconSuo{
+    width: .3rem;
+    height: .4rem;
+    background-image: url("../img/index5/section/suo.png");
+    background-size: 100% 100%;
+    margin-top: 0.23rem;
+}
+
+section .box .confirm{
+    width: 1.86rem;
+    height: .7rem;
+    background-image: url("../img/index5/section/gou.png");
+    background-repeat: no-repeat;
+    margin: .34rem auto 0;
+}
+
+footer{
+    width: 100%;
+    height: 2.01rem;
+    display: flex;
+    align-items: center;
+}
+
+footer .box{
+    width: 100%;
+    height: .2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .box .pic{
+    width: 100%;
+    height: .04rem;
+    background-image: url("../img/index6/footer/heng.png");
+    background-size: 100% 100%;
+}
+
+footer .box .xieYi{
+    width: 3.9rem;
+    height: .2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -.27rem;
+    margin-top: -.13rem;
+}
+
+footer .box .xieYi .icon{
+    width: .1rem;
+    height: .1rem;
+    border-radius: 50%;
+    background-color: #ed915a;
+    box-shadow: 0 0 .03rem .02rem rgba(237,145,90,.5);
+    margin: 0 auto;
+}
+
+footer .box .xieYi p{
+    color: #bbbbbb;
+    font-size: .18rem;
+    line-height: .2rem;
+}

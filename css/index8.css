@@ -1,0 +1,172 @@
+header{
+    width: 100%;
+    height: 4.9rem;
+    background-image: url("../img/index8/header/bg.png");
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+section{
+    width: 100%;
+    height: 6.5rem;
+    background: white;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+}
+
+section .topBox{
+    width: 100%;
+    height: 1.83rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .topBox .box{
+    width: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section .topBox .box .pic{
+    width: .42rem;
+    height: .44rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .topBox .box .pic .picture{
+    width: .3rem;
+    height: .3rem;
+    background-image: url("../img/index8/section/yue.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+section .topBox .box .pic .yuan{
+    width: .42rem;
+    height: .1rem;
+    border-radius: .5rem;
+    background: #dfa6ca;
+}
+
+section .topBox .box .title{
+    color: #ccd0d2;
+    font-size: .3rem;
+    text-align: center;
+}
+
+section .topBox .box .des{
+    color: #ccd0d2;
+    font-size: .18rem;
+    text-align: center;
+}
+
+section .topBox .icon{
+    width: .2rem;
+    height: .2rem;
+    background-image: url("../img/index8/section/wenhao.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+section .heng{
+    width: 100%;
+    height: .04rem;
+    background-image: url("../img/index8/section/heng.png");
+}
+
+section .bottomBox{
+    width: 100%;
+    height: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1.75rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .bottomBox .price{
+    height: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .bottomBox .price .top{
+    width: 1.75rem;
+    height: .3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+section .bottomBox .price .top .rmb{
+    color: #eaaee3;
+    font-size: .22rem;
+}
+
+section .bottomBox .price .top .num{
+    color: #f3a9b0;
+    font-size: .3rem;
+    margin-left: 0.1rem;
+}
+
+section .bottomBox .price p{
+    color: #cacaca;
+    font-size: .20rem;
+}
+
+section .bottomBox .pic{
+    width: 1.7rem;
+    height: 1.7rem;
+    background-image: url("../img/index8/section/gou.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section .bottomBox .button{
+    width: 4rem;
+    height: .45rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .bottomBox .button .rightBtn{
+    width: 1.5rem;
+    height: 100%;
+    background-image: url("../img/index8/section/jixu.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    color: #fff;
+    font-size: .24rem;
+    text-align: center;
+    line-height: .4rem;
+}
+
+section .bottomBox .button .leftBtn{
+    width: 1.5rem;
+    height: 100%;
+    background-image: url("../img/index8/section/fanhui.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    color: #fff;
+    font-size: .24rem;
+    text-align: center;
+    line-height: .4rem;
+}

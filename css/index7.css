@@ -1,0 +1,553 @@
+header{
+    width: 100%;
+    height: 4rem;
+    background-image: url("../img/index7/header/bg.png");
+    background-size: 100% 100%;
+    background-position: center;
+    padding-top: .4rem;
+}
+
+header .nav{
+    display: block;
+    width: .4rem;
+    height: .4rem;
+    margin: .4rem .24rem 0;
+    background-image: url("../img/index7/header/back.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+header .navBox{
+    width: 100%;
+    height: 1.4rem;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .1rem;
+}
+
+header .navBox .leftBox{
+    width: 2.8rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header .navBox .leftBox .des{
+    color: #fff;
+    font-size: .18rem;
+    line-height: .18rem;
+}
+
+header .navBox .leftBox .address{
+    color: #fff;
+    font-size: .24rem;
+    line-height: .24rem;
+}
+
+header .navBox .leftBox .nameBox{
+    width: 2.8rem;
+    height: .2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navBox .leftBox .nameBox .name{
+    width: 1.2rem;
+    height: 100%;
+    color: #fff;
+    font-size: .2rem;
+    line-height: .2rem;
+}
+
+header .navBox .leftBox .nameBox .phone{
+    width: 1.3rem;
+    height: 100%;
+    color: #fff;
+    font-size: .2rem;
+    line-height: .2rem;
+}
+
+header .navBox a{
+    display: block;
+    width: .12rem;
+    height: .2rem;
+    background-image: url("../img/index7/header/youbai.png");
+}
+
+section{
+    width: 100%;
+    height: auto;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+    margin-top: -1.6rem;
+}
+
+section .topBox{
+    width: 7.02rem;
+    height: 1.98rem;
+    border-radius: .2rem;
+    background-color: #fff;
+    box-shadow: 0 .01rem .05rem #382e2e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .topBox .time,.fangshi{
+    width: 100%;
+    height: 50%;
+    padding-left: .2rem;
+    padding-right: .1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .topBox .time .timeLeft{
+    color: #000;
+    font-size: .22rem;
+}
+
+section .topBox .fangshi .fangshiLeft{
+    color: #000;
+    font-size: .22rem;
+}
+
+section .topBox .time .timeRight{
+    width: 2.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .topBox .fangshi .fangshiRight{
+    width: 1.18rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .topBox .time .timeRight .jinkuai{
+    color: #ff8400;
+    font-size: .22rem;
+}
+
+section .topBox .time .timeRight .you{
+    width: .12rem;
+    height: .2rem;
+    background-image: url("../img/index7/header/youhui.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+section .topBox .fangshi .fangshiRight .zhanghu{
+    color: #ff8400;
+    font-size: .22rem;
+}
+
+section .topBox .fangshi .fangshiRight .you{
+    width: .12rem;
+    height: .2rem;
+    background-image: url("../img/index7/header/youhui.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+section .topBox .heng{
+    width: 6.82rem;
+    height: .04rem;
+    background-image: url("../img/index7/header/tiao.png");
+    background-size: 100% 100%;
+}
+
+section .shopBox{
+    width: 7.02rem;
+    height: 9.40rem;
+    border-radius: .2rem;
+    background-color: #fff;
+    box-shadow: 0 .01rem .05rem #382e2e;
+    margin: .45rem 0;
+    overflow: hidden;
+}
+
+section .shopBox .title{
+    color: #000;
+    font-size: .24rem;
+    margin-left: .2rem;
+    margin-top: .37rem;
+    margin-bottom: .37rem;
+}
+
+section .shopBox .heng{
+    width: 6.82rem;
+    height: .04rem;
+    background-image: url("../img/index7/section/tiao.png");
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+section .shopBox .infoBox{
+    width: 100%;
+    height: 5.92rem;
+    padding: 0 .1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+section .shopBox .infoBox .info{
+    width: 100%;
+    height: 1.34rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .shopBox .infoBox .info .pic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .shopBox .infoBox .info .pic img{
+    width: 1.32rem;
+    height: 100%;
+    margin-right: .3rem;
+}
+
+section .shopBox .infoBox .info .pic h4{
+    color: #000;
+    font-size: .22rem;
+}
+
+section .shopBox .infoBox .info .pri{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .shopBox .infoBox .info .pri .num{
+    color: #000;
+    font-size: .22rem;
+    margin-right: .4rem;
+}
+
+section .shopBox .infoBox .info .pri .price{
+    color: #000;
+    font-size: .24rem;
+}
+
+section .shopBox .hongbao{
+    width: 100%;
+    height: 1.2rem;
+    padding: 0 .1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .shopBox .hongbao h3{
+    color: #000;
+    font-size: .24rem;
+}
+
+section .shopBox .hongbao .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .shopBox .hongbao .right h4{
+    color: #000;
+    font-size: .24rem;
+}
+
+section .shopBox .hongbao .right .icon{
+    width: .12rem;
+    height: .22rem;
+    margin-left: .2rem;
+    background-image: url("../img/index7/section/you.png");
+    background-size: 100% 100%;
+}
+
+section .shopBox .xiaoji{
+    width: 100%;
+    height: 1.2rem;
+    padding: 0 .1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .shopBox .xiaoji h3{
+    color: #000;
+    font-size: .24rem;
+}
+
+section .shopBox .xiaoji .price{
+    color: #000;
+    font-size: .24rem;
+}
+
+section .bottomBox{
+    width: 7.02rem;
+    height: 2rem;
+    border-radius: .2rem;
+    background-color: #fff;
+    box-shadow: 0 .01rem .05rem rgba(56,46,46,.28);
+    margin-bottom: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .bottomBox .heng{
+    width: 6.82rem;
+    height: .04rem;
+    background-image: url("../img/index7/section/tiao.png");
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+section .bottomBox .des{
+    width: 100%;
+    height: 1.2rem;
+    padding: 0 .1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .bottomBox .des h3{
+    color: #000;
+    font-size: .24rem;
+}
+
+section .bottomBox .des .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .bottomBox .des .right h4{
+    color: #000;
+    font-size: .24rem;
+}
+
+section .bottomBox .des .right .icon{
+    width: .12rem;
+    height: .22rem;
+    margin-left: .2rem;
+    background-image: url("../img/index7/section/you.png");
+    background-size: 100% 100%;
+}
+
+section .bottomBox .canju{
+    width: 100%;
+    height: 1.2rem;
+    padding: 0 .1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .bottomBox .canju h3{
+    color: #000;
+    font-size: .24rem;
+}
+
+section .bottomBox .canju .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .bottomBox .canju .right h4{
+    color: #000;
+    font-size: .24rem;
+}
+
+section .bottomBox .canju .right .icon{
+    width: .12rem;
+    height: .22rem;
+    margin-left: .2rem;
+    background-image: url("../img/index7/section/you.png");
+    background-size: 100% 100%;
+}
+
+section .more{
+    width: 100%;
+    height: 1rem;
+}
+
+footer{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../img/index7/footer/di.png");
+    position: fixed;
+    bottom: 0;
+    padding-left: .24rem;
+    box-sizing: border-box;
+}
+
+footer .price{
+    color: #fff;
+    font-size: .24rem;
+}
+
+footer .confirm{
+    width: 1.8rem;
+    height: 100%;
+    background-image: url("../img/index7/footer/confirm.png");
+    background-size: 100% 100%;
+    color: #fff;
+    font-size: .24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blank{
+    width: 100%;
+    height: 8.5rem;
+    background: #fff;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+}
+
+.zhifu{
+    width: 7.02rem;
+    height: 8.3rem;
+    background-image: url("../img/index7/section/bg.png");
+    background-size: 100% 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.zhifu .title{
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zhifu .title h3{
+    color: #000;
+    font-size: .24rem;
+}
+
+.zhifu .title .icon{
+    width: .22rem;
+    height: .22rem;
+    background-image: url("../img/index7/section/x.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-right: .05rem;
+}
+
+.blank .zhifu .heng{
+    width: 6.82rem;
+    height: .04rem;
+    background-image: url("../img/index7/section/tiao.png");
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.blank .zhifu .method{
+    width: 100%;
+    height: 1.15rem;
+    padding-left: .2rem;
+    padding-right: .1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blank .zhifu .method .meBox{
+    width: 2.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.blank .zhifu .method .meBox .pic{
+    height: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blank .zhifu .method .meBox .pic .picture{
+    width: .6rem;
+    height: .6rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blank .zhifu .method .meBox .pic .p1{
+    background-image: url("../img/index7/section/yue.png");
+}
+
+.blank .zhifu .method .meBox .pic .p2{
+    background-image: url("../img/index7/section/zhifubao.png");
+}
+
+.blank .zhifu .method .meBox .pic .p3{
+    background-image: url("../img/index7/section/wx.png");
+}
+
+.blank .zhifu .method .meBox .pic .p4{
+    background-image: url("../img/index7/section/huabei.png");
+}
+
+.blank .zhifu .method .meBox .pic .p5{
+    background-image: url("../img/index7/section/yinghangka.png");
+}
+
+.blank .zhifu .method .meBox .pic .p6{
+    background-image: url("../img/index7/section/qq.png");
+}
+
+.blank .zhifu .method .meBox .pic .yuan{
+    width: .43rem;
+    height: .09rem;
+    border-radius: .5rem;
+    background-color: #d07ab0;
+}
+
+.blank .zhifu .method .title{
+    margin-left: .4rem;
+    color: #000;
+    font-size: .24rem;
+}
+
+.blank .zhifu .method .iconfont{
+    display: block;
+    width: .3rem;
+    height: .3rem;
+}

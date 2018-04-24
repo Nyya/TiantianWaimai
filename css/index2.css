@@ -1,0 +1,281 @@
+header{
+    width: 100%;
+    height: 1.3rem;
+    padding: 0.4rem 0.24rem 0;
+    box-sizing: border-box;
+    background-image: url("../img/index2/header/bg.png");
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h3{
+    color: #fff;
+    font-size: 0.28rem;
+}
+
+header p{
+    color: rgba(254,254,254,0.8);
+    font-size: 0.18rem;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    padding: 0.24rem 0.24rem 0;
+    box-sizing: border-box;
+}
+
+section .order{
+    width: 100%;
+    height: 3.18rem;
+    margin-bottom: 0.24rem;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/index2/section/bg.png");
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+section .order .left{
+    width: 1.76rem;
+    height: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .order .left .pic{
+    width: 1rem;
+    height: 1rem;
+}
+
+section .order .left .pic.p1{
+    background-image: url("../img/index2/section/1.png");
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+section .order .left .pic.p2{
+    background-image: url("../img/index2/section/1.png");
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+section .order .left .pic.p3{
+    background-image: url("../img/index2/section/2.png");
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+section .order .left .pic.p4{
+    background-image: url("../img/index2/section/3.png");
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+section .order .left .gray{
+    width: 1.08rem;
+    height: 0.08rem;
+    background-image: url("../img/index2/section/huitiao.png");
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+section .order .left .xing{
+    width: 1.11rem;
+    height: 0.22rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .order .left .xing i{
+    color: #FFE415;
+    font-size: 0.16rem;
+    text-shadow: 0.04rem 0.04rem 0.05rem rgba(255,233,33,0.8);
+}
+
+section .order .left .xing .none{
+    color: rgba(255,203,29,0.2);
+    font-size: 0.16rem;
+    text-shadow: 0.04rem 0.04rem 0.05rem rgba(255,233,33,0.5);
+}
+
+section .order .left .again{
+    width: 0.86rem;
+    height: 0.3rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(to right bottom, #ffbcf7,#f2a8a8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.01rem 0.01rem 0.05rem rgba(0,0,0,0.3);
+}
+
+section .order .left .again p{
+    color: #fff;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.18rem;
+}
+
+section .order .right{
+    width: 3.15rem;
+    height: 2.3rem;
+    margin-left: 0.38rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+section .order .right .title{
+    color: #000;
+    font-size: 0.28rem;
+}
+
+section .order .right p:first-of-type{
+    color: #dad5d5;
+    font-size: 0.18rem;
+}
+
+section .order .right p:last-of-type{
+    width: 3rem;
+    color: rgba(4,4,4,0.5);
+    font-size: 0.22rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+section .order .right .date{
+    width: 3rem;
+    height: 0.4rem;
+    display: flex;
+    align-items: center;
+}
+
+section .order .right .date ul{
+    width: 1.2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+section .order .right .date ul li:first-of-type{
+    width: 0.2rem;
+    height: 0.2rem;
+    display: flex;
+    position: relative;
+}
+
+section .order .right .date ul li i{
+    color: #000;
+    font-size: 0.22rem;
+}
+
+section .order .right .date ul li:last-child{
+    color: rgba(0,0,0,0.5);
+    font-size: 0.14rem;
+    margin-left: 0.1rem;
+}
+
+section .order .right .date ul:nth-child(2){
+    flex-grow: 1;
+    margin-left: 0.1rem;
+}
+
+section .order .right .date ul:nth-child(2) li:nth-child(2){
+    width: 1.4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+section .order .mark{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: -2.4rem;
+    position: relative;
+}
+
+section .order .mark:before{
+    content: "￥";
+    color: #fff;
+    font-size: 0.2rem;
+    position: absolute;
+    top: 0.4rem;
+    right: 1.05rem;
+}
+
+section .order .mark:after{
+    content: "48";
+    color: #fff;
+    font-size: 0.3rem;
+    position: absolute;
+    top: 0.3rem;
+}
+
+section .noMore{
+    width: 100%;
+    height: 1.5rem;
+    position: relative;
+}
+
+section .noMore span{
+    width: 1.5rem;
+    display: block;
+    color: #8E8E8E;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.2rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0.25rem auto 0;
+}
+
+footer{
+    width: 100%;
+    height: 0.98rem;
+    background: #fff;
+    box-shadow: 0 -0.01rem 0.1rem rgba(169,169,169,.9);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+footer a .hot{
+    text-shadow: 0.04rem 0.04rem 0.05rem rgba(127,127,127,0.7);
+}
+
+footer a{
+    width: 0.6rem;
+    height: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a .iconfont{
+    color: #898989;
+    font-size: 0.44rem;
+}
+
+footer a span{
+    color: rgba(129,129,129,0.7);
+    font-size: 0.18rem;
+}

@@ -1,0 +1,347 @@
+header{
+    width: 100%;
+    height: auto;
+}
+
+header .box{
+    width: 100%;
+    height: 1.9rem;
+    background-image: url("../img/index1/header/bg.png");
+    background-size: 100% 100%;
+    padding: 0.4rem 0.24rem 0;
+    box-sizing: border-box;
+}
+
+header .box .nav{
+    width: 100%;
+    height: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .box .nav .left{
+    display: flex;
+}
+
+header .box .nav .left i{
+    color: #fff;
+    font-size: 0.4rem;
+}
+
+header .box .nav .right{
+    display: flex;
+}
+
+header .box .nav .right i{
+    color: #fff;
+    font-size: 0.4rem;
+}
+
+.thing{
+    width: 100%;
+    height: 3.23rem;
+    padding: .24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.thing .top{
+    width: 100%;
+    height: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thing p{
+    color: #000;
+    font-size: .18rem;
+}
+
+.thing .top .pic{
+    width: 1.4rem;
+    height: 1.4rem;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.thing .top .p3{
+    background-image: url("../img/index1/section/3.png");
+}
+
+.thing .top .foodInfo{
+    flex-grow: 1;
+    display: flex;
+    position: relative;
+}
+
+.thing .top .foodInfo .infomation{
+    padding-left: 0.38rem;
+    box-sizing: border-box;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.thing .top .foodInfo .infomation .box{
+    width: 1.9rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thing .top .foodInfo .infomation .box .title{
+    color: #000;
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    font-weight: bold;
+}
+
+.thing .top .foodInfo .infomation .des{
+    width: 2.6rem;
+    color: #c2c2c2;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.thing .top .foodInfo .infomation .sale{
+    color: #c2c2c2;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+}
+
+.thing .top .foodInfo .infomation .zan{
+    color: #c2c2c2;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+    display: flex;
+    align-items: center;
+}
+
+.thing .top .foodInfo .infomation .zan .xing{
+    display: flex;
+    justify-content: space-around;
+}
+
+.thing .top .foodInfo .infomation .zan .xing i{
+    color: #FFF400;
+    font-size: 0.16rem;
+}
+
+.thing .top .foodInfo .infomation .box .tuiJian{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.01rem solid red;
+    box-sizing: border-box;
+}
+
+.thing .top .foodInfo .infomation .box .tuiJian i{
+    color: #ff0000;
+    font-size: 0.16rem;
+}
+
+.thing .top .foodInfo .infomation .box .tuiJian span{
+    color: #ff0000;
+    font-size: 0.16rem;
+}
+
+.thing .top .foodInfo .infomation .price{
+    display: flex;
+    align-items: center;
+}
+
+.thing .top .foodInfo .infomation .price .xianJia{
+    color: #ff0000;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+}
+
+.thing .top .foodInfo .infomation .price .yuanJia{
+    color: #c2c2c2;
+    font-size: 0.14rem;
+    line-height: 0.14rem;
+    margin-left: 0.12rem;
+}
+
+.thing .top .foodInfo .foodRight{
+    width: 1.43rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.thing .top .foodInfo .foodRight:after{
+    content: "加入购物车";
+    color: #fff;
+    font-size: .22rem;
+    position: absolute;
+    right: .17rem;
+}
+
+.pingjia{
+    width: 100%;
+    height: auto;
+}
+
+.pingjia .top{
+    width: 100%;
+    height: 0.91rem;
+}
+
+.pingjia .top img{
+    display: block;
+}
+
+.pingjia .top .box{
+    padding: 0 .24rem;
+    height: .71rem;
+}
+
+.pingjia .top .box h3{
+    height: 100%;
+    color: #000;
+    font-size: .24rem;
+    line-height: 0.71rem;
+}
+
+.pingjia .bottom{
+    width: 100%;
+    height: auto;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+}
+
+.pingjia .bottom ul{
+    width: 100%;
+    height: 1.57rem;
+    padding: .24rem 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pingjia .bottom ul .pic{
+    width: 1rem;
+    height: 1rem;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.pingjia .bottom ul .p1{
+    background-image: url("../img/index4/1.png");
+}
+
+.pingjia .bottom ul .p2{
+    background-image: url("../img/index4/2.png");
+}
+
+.pingjia .bottom ul .p3{
+    background-image: url("../img/index4/3.png");
+}
+
+.pingjia .bottom ul .p4{
+    background-image: url("../img/index4/4.png");
+}
+
+.pingjia .bottom ul .per{
+    flex-grow: 1;
+    height: 100%;
+    padding-left: .2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pingjia .bottom ul .per .leftInfo{
+    width: 4rem;
+    height: 100%;
+    padding: 0 0.5rem 0 .2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.pingjia .bottom ul .per .leftInfo .name{
+    color: #000;
+    font-size: .3rem;
+    line-height: .3rem;
+}
+
+.pingjia .bottom ul .per .leftInfo div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.pingjia .bottom ul .per .leftInfo div i{
+    color: #000;
+    font-size: .2rem;
+}
+
+.pingjia .bottom ul .per .leftInfo div p{
+    margin-left: .15rem;
+    color: #8f8f8f;
+    font-size: .18rem;
+}
+
+.pingjia .bottom ul .per .leftInfo .des{
+    width: 100%;
+    color: #919191;
+    font-size: .22rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.pingjia .bottom ul .per .rightInfo{
+    width: 1.75rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.pingjia .bottom ul .per .rightInfo .date{
+    color: #919191;
+    font-size: .18rem;
+    line-height: .18rem;
+}
+
+.pingjia .bottom ul .per .rightInfo div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pingjia .bottom ul .per .rightInfo div div{
+    width: .8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pingjia .bottom ul .per .rightInfo div div i{
+    color: #000;
+    font-size: .18rem;
+    line-height: .18rem;
+}
+
+.pingjia .bottom ul .per .rightInfo div div .hot{
+    color: red;
+}
+
+.pingjia .bottom ul .per .rightInfo div div p{
+    color: #919191;
+    font-size: .18rem;
+    line-height: .18rem;
+}

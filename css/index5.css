@@ -1,0 +1,200 @@
+header{
+    width: 100%;
+    height: 3.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .head{
+    width: 2rem;
+    height: 2rem;
+    background-image: url("../img/index5/header/hd.png");
+    background-size: 100% 100%;
+}
+
+.title{
+    width: 100%;
+    height: 1.18rem;
+    padding: .11rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h3{
+    color: #d3d3d3;
+    font-size: .24rem;
+    text-align: center;
+    line-height: .24rem;
+}
+
+.title div img{
+    display: block;
+    width: 2.72rem;
+    height: .16rem;
+}
+
+.title div h2{
+    color: #d86161;
+    font-size: .24rem;
+    text-align: center;
+    line-height: .24rem;
+    margin-top: -.2rem;
+}
+
+section{
+    width: 100%;
+    height: 6rem;
+    padding-top: .78rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+section .box{
+    width: 5.65rem;
+    height: 3.90rem;
+    background-image: url("../img/index5/section/bg.png");
+    background-size: 100% 100%;
+    padding: .75rem .5rem .75rem .3rem;
+    box-sizing: border-box;
+}
+
+section .box ul{
+    width: 100%;
+    height: 100%;
+}
+
+section .box ul li{
+    width: 100%;
+    height: 33.3%;
+    padding-right: .2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .box ul li .icon{
+    width: .18rem;
+    height: .18rem;
+    background-image: url("../img/index5/section/yuan.png");
+    margin: .2rem auto 0;
+    background-repeat: no-repeat;
+}
+
+section .box ul li .list{
+    width: 4.52rem;
+    height: 100%;
+    border-bottom: .04rem solid #dcd9d6;
+    border-bottom-left-radius: .02rem;
+    border-bottom-right-radius: .02rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .box ul li:nth-child(3) .list{
+    border-bottom-style: none;
+}
+
+section .box ul li:nth-child(3) .icon{
+    width: .2rem;
+    height: .2rem;
+    background-image: url("../img/index5/section/wenhao.png");
+}
+
+section .box ul li .list .phoneNum , .password{
+    width: 2.8rem;
+    height: .72rem;
+    line-height: .72rem;
+    border-style: none;
+    background-color: #f4f4f4;
+    color: #949494;
+    font-size: .22rem;
+    padding-left: .2rem;
+    padding-top: .2rem;
+    box-sizing: border-box;
+    outline-style: none;
+}
+
+section .box ul li .list a{
+    display: block;
+    width: 2.8rem;
+    border-style: none;
+    background-color: #f4f4f4;
+    color: #949494;
+    font-size: .22rem;
+    padding-left: .2rem;
+    padding-top: .2rem;
+    box-sizing: border-box;
+    margin-top: -.03rem;
+}
+
+::-webkit-input-placeholder{
+    color: #949494;
+    font-size: .22rem;
+}
+
+section .box ul li .list .iconPhone{
+    width: .3rem;
+    height: .4rem;
+    background-image: url("../img/index5/section/phone.png");
+    background-size: 100% 100%;
+    margin-top: 0.23rem;
+}
+
+section .box ul li .list .iconSuo{
+    width: .3rem;
+    height: .4rem;
+    background-image: url("../img/index5/section/suo.png");
+    background-size: 100% 100%;
+    margin-top: 0.23rem;
+}
+
+section .box .confirm{
+    width: 1.86rem;
+    height: .7rem;
+    background-image: url("../img/index5/section/gou.png");
+    background-repeat: no-repeat;
+    margin: .34rem auto 0;
+}
+
+footer{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer div{
+    width: 3.62rem;
+    height: .62rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div a{
+    display: block;
+    width: .62rem;
+    height: .62rem;
+    background-repeat: no-repeat;
+}
+
+footer div .p1{
+    background-image: url("../img/index5/section/qq.png");
+}
+
+footer div .p2{
+    background-image: url("../img/index5/section/wx.png");
+}
+
+footer div .p3{
+    background-image: url("../img/index5/section/xl.png");
+}
